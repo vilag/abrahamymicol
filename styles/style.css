@@ -1,0 +1,96 @@
+.ephesis-regular {
+    font-family: "Ephesis", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.montserrat-a {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.luxurious-script-regular {
+  font-family: "Luxurious Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rouge-script-regular {
+  font-family: "Rouge Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.corinthia-regular {
+  font-family: "Corinthia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.corinthia-bold {
+  font-family: "Corinthia", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ballet-f {
+  font-family: "Ballet", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-serif-display-f {
+  font-family: "Noto Serif Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.bacasime-antique-regular {
+  font-family: "Bacasime Antique", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-serif-old-uyghur-regular {
+  font-family: "Noto Serif Old Uyghur", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.parisienne-regular {
+  font-family: "Parisienne", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.meddon-regular {
+  font-family: "Meddon", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.slide-bottom{-webkit-animation:slide-bottom 1s cubic-bezier(.25,.46,.45,.94) both;animation:slide-bottom 1s cubic-bezier(.25,.46,.45,.94) both}
+@-webkit-keyframes slide-bottom{0%{-webkit-transform:translateY(0);transform:translateY(0)}100%{-webkit-transform:translateY(30px);transform:translateY(30px)}}@keyframes slide-bottom{0%{-webkit-transform:translateY(0);transform:translateY(0)}100%{-webkit-transform:translateY(30px);transform:translateY(30px)}}
+
+.slide-top{-webkit-animation:slide-top 1s cubic-bezier(.25,.46,.45,.94) both;animation:slide-top 1s cubic-bezier(.25,.46,.45,.94) both}
+@-webkit-keyframes slide-top{0%{-webkit-transform:translateY(0);transform:translateY(0)}100%{-webkit-transform:translateY(-25px);transform:translateY(-25px)}}@keyframes slide-top{0%{-webkit-transform:translateY(0);transform:translateY(0)}100%{-webkit-transform:translateY(-25px);transform:translateY(-25px)}}
+
+.fade-in{-webkit-animation:fade-in 1.5s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in 1.5s cubic-bezier(.39,.575,.565,1.000) both}
+@-webkit-keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
