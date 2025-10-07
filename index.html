@@ -62,9 +62,9 @@
        <img data-aos="fade-up"
      data-aos-duration="1000" src="img/marco1_cafe.png" style="width: 200px;" alt="">
     </div>
-    <div style="max-width: 100%; width: 100%; background-color: #FFFCF5; height: 650px;">
+    <div style="max-width: 100%; width: 100%; background-color: #FFFCF5; height: 700px;">
         <div data-aos="fade-up" style="font-size: 18px; display: flex; justify-content: center; align-items: center;">
-            <div class="bacasime-antique-regular" style="letter-spacing: 1px; width: 100%; text-align: center; padding-top: 50px;  line-height: 30px; color: #6f654e;">
+            <div class="bacasime-antique-regular" style="letter-spacing: 1px; width: 100%; text-align: center; padding: 50px 10px;  line-height: 30px; color: #6f654e;">
                 <span style="text-transform: uppercase;">
                     Pero en el Señor, ni el varón es sin la mujer, ni la mujer sin el varón; porque así como la mujer procede del varón, también el varón nace de la mujer; pero todo procede de Dios.
                     Por tanto, dejará el hombre a su padre y a su madre, y se unirá a su mujer, y serán una sola carne.
@@ -75,7 +75,7 @@
             
         </div>  
     </div>
-    <div style="max-width: 100%; width: 100%; height: 450px; background-image: url(img/nuevo/cuenta.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;">
+    <div style="max-width: 100%; width: 100%; height: 450px; background-image: url(img/nuevo/cuenta.jpg); background-repeat: no-repeat; background-size: cover; background-position: center; margin: 5px;">
         <div class="noto-serif-old-uyghur-regular" style="width: 100%; display: flex; justify-content: center; align-items: center; height: 200px; color: #FFFCF5; background-color: rgba(0,0,0,0.3);">
             <span data-aos="fade-up"
      data-aos-anchor-placement="top-bottom" style="font-size: 30px;">CUENTA REGRESIVA</span>
@@ -131,57 +131,7 @@
         </div>
     </div>
     
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-   
-           //===
-           // VARIABLES
-           //===
-           const DATE_TARGET = new Date('11/16/2025 0:01 AM');
-           // DOM for render
-           const SPAN_DAYS = document.querySelector('span#days');
-           const SPAN_HOURS = document.querySelector('span#hours');
-           const SPAN_MINUTES = document.querySelector('span#minutes');
-           const SPAN_SECONDS = document.querySelector('span#seconds');
-           // Milliseconds for the calculations
-           const MILLISECONDS_OF_A_SECOND = 1000;
-           const MILLISECONDS_OF_A_MINUTE = MILLISECONDS_OF_A_SECOND * 60;
-           const MILLISECONDS_OF_A_HOUR = MILLISECONDS_OF_A_MINUTE * 60;
-           const MILLISECONDS_OF_A_DAY = MILLISECONDS_OF_A_HOUR * 24
-   
-           //===
-           // FUNCTIONS
-           //===
-   
-           /**
-           * Method that updates the countdown and the sample
-           */
-           function updateCountdown() {
-               // Calcs
-               const NOW = new Date()
-               const DURATION = DATE_TARGET - NOW;
-               const REMAINING_DAYS = Math.floor(DURATION / MILLISECONDS_OF_A_DAY);
-               const REMAINING_HOURS = Math.floor((DURATION % MILLISECONDS_OF_A_DAY) / MILLISECONDS_OF_A_HOUR);
-               const REMAINING_MINUTES = Math.floor((DURATION % MILLISECONDS_OF_A_HOUR) / MILLISECONDS_OF_A_MINUTE);
-               const REMAINING_SECONDS = Math.floor((DURATION % MILLISECONDS_OF_A_MINUTE) / MILLISECONDS_OF_A_SECOND);
-               // Thanks Pablo Monteserín (https://pablomonteserin.com/cuenta-regresiva/)
-   
-               // Render
-               SPAN_DAYS.textContent = REMAINING_DAYS;
-               SPAN_HOURS.textContent = REMAINING_HOURS;
-               SPAN_MINUTES.textContent = REMAINING_MINUTES;
-               SPAN_SECONDS.textContent = REMAINING_SECONDS;
-           }
-   
-           //===
-           // INIT
-           //===
-           updateCountdown();
-           // Refresh every second
-           setInterval(updateCountdown, MILLISECONDS_OF_A_SECOND);
-        });
-    </script>
-    <div style=" max-width: 100%; background-color: #FFFCF5; width: 100%; height: 500px;">
+    <div style=" max-width: 100%; background-color: #FFFCF5; width: 100%; height: 500px; margin: 10px;">
         <!-- <div style="width: 100%; height: 750px; background-image: url(img/back_inv.jpg); background-repeat: no-repeat; background-size: cover; position: absolute; opacity: 0.2;">
 
         </div> -->
@@ -625,5 +575,6 @@
 <script>
   AOS.init();
 </script>
+<script type="text/javascript" src="index.js?v=<?php echo(rand()); ?>"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </html>
