@@ -127,6 +127,24 @@
 .estilo_box_itin{
   width: 40%; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;
 }
+.estilo_marco_hombres{
+  float: left; width: 80%; height: 600px; border: #d9ac85 1px solid;
+}
+.estilo_marco_mujeres{
+  float: left; width: 80%; height: 900px; border: #d9ac85 1px solid; margin-top: 20px;
+}
+.estilo_invi{
+  width: 100%; text-align: center; font-size: 16px; text-transform: uppercase; line-height: 25px; padding: 10px;
+}
+.estilo_text_no_ninos{
+  width: 90%; text-align: center;  font-size: 16px;  color: #6f654e; text-transform: uppercase; line-height: 25px; padding: 10px;
+}
+.estilo_nombres_inicio{
+  padding-left: 0px; width: 100%; height: 500px; background-color: transparent; position: absolute; z-index: 3; font-size: 40px; color: #ffffff;
+}
+.estilo_textos_bib{
+  width: 100%; text-align: center; padding: 50px 10px;  line-height: 25px; color: #6f654e;
+}
 
 @media only screen and (max-width: 300px){
   .estilo_img_princ1{
@@ -152,7 +170,7 @@
     width: 92px; height: 436px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
   }
   .estilo_img_princ2{
-    margin-top: -55px; width: 131px; height: 440px; float: left;  border: #FFFCF5 0px solid;
+    margin-top: -50px; width: 131px; height: 440px; float: left;  border: #FFFCF5 0px solid;
   }
   .estilo_img_princ3{
     width: 91px; height: 444px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
@@ -162,6 +180,9 @@
   }
   .estilo_content_texto_ini{
     max-width: 100%; width: 100%; background-color: #FFFCF5; height: 520px;
+  }
+  .estilo_obsequios_text{
+    width: 90%; text-align: center;
   }
 }
 
@@ -173,7 +194,7 @@
     width: 92px; height: 436px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
   }
   .estilo_img_princ2{
-    margin-top: -55px; width: 131px; height: 440px; float: left;  border: #FFFCF5 0px solid;
+    margin-top: -49px; width: 131px; height: 440px; float: left;  border: #FFFCF5 0px solid;
   }
   .estilo_img_princ3{
     width: 91px; height: 444px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
@@ -209,7 +230,7 @@
     width: 106px; height: 502px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
   }
   .estilo_img_princ2{
-    margin-top: -55px; width: 151px; height: 507px; float: left;  border: #FFFCF5 0px solid;
+    margin-top: -40px; width: 151px; height: 507px; float: left;  border: #FFFCF5 0px solid;
   }
   .estilo_img_princ3{
     width: 105px; height: 513px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
@@ -242,10 +263,10 @@
     width: 100%; max-width: 100%; height: 570px; background-color: #FFFCF5; display: flex; justify-content: center; align-items: center;
   }
   .estilo_img_princ1{
-    width: 106px; height: 502px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+    width: 107px; height: 502px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
   }
   .estilo_img_princ2{
-    margin-top: -55px; width: 151px; height: 507px; float: left;  border: #FFFCF5 0px solid;
+    margin-top: -40px; width: 151px; height: 507px; float: left;  border: #FFFCF5 0px solid;
   }
   .estilo_img_princ3{
     width: 105px; height: 513px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
@@ -273,5 +294,230 @@
   }
   .estilo_box_itin{
     width: 20%; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 800px){
+  .estilo_content_princ_header{
+    width: 100%; max-width: 100%; height: 570px; background-color: #FFFCF5; display: flex; justify-content: center; align-items: center;
+  }
+  .estilo_img_princ1{
+    width: 107px; height: 502px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_img_princ2{
+    margin-top: -40px; width: 152px; height: 507px; float: left;  border: #FFFCF5 0px solid;
+  }
+  .estilo_img_princ3{
+    width: 105px; height: 513px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_content_texto_ini{
+    max-width: 100%; width: 100%; background-color: #FFFCF5; height: 400px;
+  }
+  .estilo_content_space_cuenta{
+    width: 15%; float: left; text-align: center;
+  }
+  .tam_num_cuenta{
+    font-size: 45px;
+  }
+  .tam_puntos_cuenta{
+    font-size: 30px;
+  }
+  .tam_letras_cuenta{
+    font-size: 12px;
+  }
+  .tam_cuenta_r{
+    font-size: 30px;
+  }
+  .estilo_space_invi{
+    max-width: 100%; background-color: #FFFCF5; width: 100%; height: 350px;
+  }
+  .estilo_box_itin{
+    width: 20%; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;
+  }
+  .estilo_marco_hombres{
+    float: left; width: 400px; height: 600px; border: #d9ac85 1px solid;
+  }
+  .estilo_marco_mujeres{
+    float: left; width: 400px; height: 900px; border: #d9ac85 1px solid; margin-top: 20px;
+  }
+  .estilo_obsequios_text{
+    width: 500px; text-align: center;
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 900px){
+  .estilo_content_princ_header{
+    width: 100%; max-width: 100%; height: 570px; background-color: #FFFCF5; display: flex; justify-content: center; align-items: center;
+  }
+  .estilo_img_princ1{
+    width: 107px; height: 502px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_img_princ2{
+    margin-top: -40px; width: 152px; height: 507px; float: left;  border: #FFFCF5 0px solid;
+  }
+  .estilo_img_princ3{
+    width: 105px; height: 513px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_content_texto_ini{
+    max-width: 100%; width: 100%; background-color: #FFFCF5; height: 400px;
+  }
+  .estilo_content_space_cuenta{
+    width: 15%; float: left; text-align: center;
+  }
+  .tam_num_cuenta{
+    font-size: 45px;
+  }
+  .tam_puntos_cuenta{
+    font-size: 30px;
+  }
+  .tam_letras_cuenta{
+    font-size: 12px;
+  }
+  .tam_cuenta_r{
+    font-size: 30px;
+  }
+  .estilo_space_invi{
+    max-width: 100%; background-color: #FFFCF5; width: 100%; height: 350px;
+  }
+  .estilo_box_itin{
+    width: 20%; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;
+  }
+  .estilo_marco_hombres{
+    float: left; width: 400px; height: 600px; border: #d9ac85 1px solid;
+  }
+  .estilo_marco_mujeres{
+    float: left; width: 400px; height: 900px; border: #d9ac85 1px solid; margin-top: 20px;
+  }
+  .estilo_obsequios_text{
+    width: 500px; text-align: center;
+  }
+  .estilo_invi{
+    width: 600px; text-align: center; font-size: 16px; text-transform: uppercase; line-height: 25px; padding: 10px;
+  }
+  .estilo_text_no_ninos{
+    width: 600px; text-align: center;  font-size: 16px;  color: #6f654e; text-transform: uppercase; line-height: 25px; padding: 10px;
+  }
+  .estilo_nombres_inicio{
+    padding-left: 0px; width: 100%; height: 500px; background-color: transparent; position: absolute; z-index: 3; font-size: 50px; color: #ffffff;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1000px){
+  .estilo_content_princ_header{
+    width: 100%; max-width: 100%; height: 570px; background-color: #FFFCF5; display: flex; justify-content: center; align-items: center;
+  }
+  .estilo_img_princ1{
+    width: 107px; height: 502px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_img_princ2{
+    margin-top: -40px; width: 152px; height: 507px; float: left;  border: #FFFCF5 0px solid;
+  }
+  .estilo_img_princ3{
+    width: 105px; height: 513px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_content_texto_ini{
+    max-width: 100%; width: 100%; background-color: #FFFCF5; height: 400px;
+  }
+  .estilo_content_space_cuenta{
+    width: 15%; float: left; text-align: center;
+  }
+  .tam_num_cuenta{
+    font-size: 45px;
+  }
+  .tam_puntos_cuenta{
+    font-size: 30px;
+  }
+  .tam_letras_cuenta{
+    font-size: 12px;
+  }
+  .tam_cuenta_r{
+    font-size: 30px;
+  }
+  .estilo_space_invi{
+    max-width: 100%; background-color: #FFFCF5; width: 100%; height: 350px;
+  }
+  .estilo_box_itin{
+    width: 20%; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;
+  }
+  .estilo_marco_hombres{
+    float: left; width: 400px; height: 600px; border: #d9ac85 1px solid;
+  }
+  .estilo_marco_mujeres{
+    float: left; width: 400px; height: 900px; border: #d9ac85 1px solid; margin-top: 20px;
+  }
+  .estilo_obsequios_text{
+    width: 800px; text-align: center;
+  }
+  .estilo_invi{
+    width: 800px; text-align: center; font-size: 16px; text-transform: uppercase; line-height: 25px; padding: 10px;
+  }
+  .estilo_text_no_ninos{
+    width: 800px; text-align: center;  font-size: 16px;  color: #6f654e; text-transform: uppercase; line-height: 25px; padding: 10px;
+  }
+  .estilo_nombres_inicio{
+    padding-left: 0px; width: 100%; height: 500px; background-color: transparent; position: absolute; z-index: 3; font-size: 50px; color: #ffffff;
+  }
+  .estilo_textos_bib{
+    width: 800px; text-align: center; padding: 50px 10px;  line-height: 25px; color: #6f654e;
+  }
+}
+
+@media only screen and (min-width: 1001px){
+  .estilo_content_princ_header{
+    width: 100%; max-width: 100%; height: 570px; background-color: #FFFCF5; display: flex; justify-content: center; align-items: center;
+  }
+  .estilo_img_princ1{
+    width: 107px; height: 502px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_img_princ2{
+    margin-top: -40px; width: 152px; height: 507px; float: left;  border: #FFFCF5 0px solid;
+  }
+  .estilo_img_princ3{
+    width: 105px; height: 513px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_content_texto_ini{
+    max-width: 100%; width: 100%; background-color: #FFFCF5; height: 400px;
+  }
+  .estilo_content_space_cuenta{
+    width: 150px; float: left; text-align: center;
+  }
+  .tam_num_cuenta{
+    font-size: 45px;
+  }
+  .tam_puntos_cuenta{
+    font-size: 30px;
+  }
+  .tam_letras_cuenta{
+    font-size: 12px;
+  }
+  .tam_cuenta_r{
+    font-size: 30px;
+  }
+  .estilo_space_invi{
+    max-width: 100%; background-color: #FFFCF5; width: 100%; height: 350px;
+  }
+  .estilo_box_itin{
+    width: 20%; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;
+  }
+  .estilo_marco_hombres{
+    float: left; width: 400px; height: 600px; border: #d9ac85 1px solid;
+  }
+  .estilo_marco_mujeres{
+    float: left; width: 400px; height: 900px; border: #d9ac85 1px solid; margin-top: 20px;
+  }
+  .estilo_obsequios_text{
+    width: 800px; text-align: center;
+  }
+  .estilo_invi{
+    width: 800px; text-align: center; font-size: 16px; text-transform: uppercase; line-height: 25px; padding: 10px;
+  }
+  .estilo_text_no_ninos{
+    width: 800px; text-align: center;  font-size: 16px;  color: #6f654e; text-transform: uppercase; line-height: 25px; padding: 10px;
+  }
+  .estilo_nombres_inicio{
+    padding-left: 0px; width: 100%; height: 500px; background-color: transparent; position: absolute; z-index: 3; font-size: 50px; color: #ffffff;
+  }
+  .estilo_textos_bib{
+    width: 800px; text-align: center; padding: 50px 10px;  line-height: 25px; color: #6f654e;
   }
 }
