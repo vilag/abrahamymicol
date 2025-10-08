@@ -124,6 +124,9 @@
 .estilo_space_invi{
   max-width: 100%; background-color: #FFFCF5; width: 100%; height: 400px;
 }
+.estilo_box_itin{
+  width: 40%; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;
+}
 
 @media only screen and (max-width: 300px){
   .estilo_img_princ1{
@@ -195,5 +198,80 @@
   }
   .estilo_space_invi{
     max-width: 100%; background-color: #FFFCF5; width: 100%; height: 350px;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 600px){
+  .estilo_content_princ_header{
+    width: 100%; max-width: 100%; height: 570px; background-color: #FFFCF5; display: flex; justify-content: center; align-items: center;
+  }
+  .estilo_img_princ1{
+    width: 106px; height: 502px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_img_princ2{
+    margin-top: -55px; width: 151px; height: 507px; float: left;  border: #FFFCF5 0px solid;
+  }
+  .estilo_img_princ3{
+    width: 105px; height: 513px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_content_texto_ini{
+    max-width: 100%; width: 100%; background-color: #FFFCF5; height: 450px;
+  }
+  .estilo_content_space_cuenta{
+    width: 20%; float: left; text-align: center;
+  }
+  .tam_num_cuenta{
+    font-size: 45px;
+  }
+  .tam_puntos_cuenta{
+    font-size: 30px;
+  }
+  .tam_letras_cuenta{
+    font-size: 12px;
+  }
+  .tam_cuenta_r{
+    font-size: 30px;
+  }
+  .estilo_space_invi{
+    max-width: 100%; background-color: #FFFCF5; width: 100%; height: 350px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 700px){
+  .estilo_content_princ_header{
+    width: 100%; max-width: 100%; height: 570px; background-color: #FFFCF5; display: flex; justify-content: center; align-items: center;
+  }
+  .estilo_img_princ1{
+    width: 106px; height: 502px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_img_princ2{
+    margin-top: -55px; width: 151px; height: 507px; float: left;  border: #FFFCF5 0px solid;
+  }
+  .estilo_img_princ3{
+    width: 105px; height: 513px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_content_texto_ini{
+    max-width: 100%; width: 100%; background-color: #FFFCF5; height: 400px;
+  }
+  .estilo_content_space_cuenta{
+    width: 20%; float: left; text-align: center;
+  }
+  .tam_num_cuenta{
+    font-size: 45px;
+  }
+  .tam_puntos_cuenta{
+    font-size: 30px;
+  }
+  .tam_letras_cuenta{
+    font-size: 12px;
+  }
+  .tam_cuenta_r{
+    font-size: 30px;
+  }
+  .estilo_space_invi{
+    max-width: 100%; background-color: #FFFCF5; width: 100%; height: 350px;
+  }
+  .estilo_box_itin{
+    width: 20%; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;
   }
 }
