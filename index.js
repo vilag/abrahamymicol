@@ -1,3 +1,25 @@
+location_actual();
+function location_actual(){
+    var urlCompleta = window.location.href;
+    //console.log(urlCompleta);
+    //console.log(window.location.search);
+    var valores = window.location.search;
+
+    var sub = valores.slice(4, 20);
+    //console.log(sub);
+    //return;
+    $.post("panel/ajax/index.php?op=buscar_nombre",{sub:sub},function(data, status)
+	{
+	    data = JSON.parse(data);
+
+		//console.log(data.nombre);
+        $("#nombre_invitacion").text(data.nombre);
+
+	});
+}
+        
+        
+        
         document.addEventListener('DOMContentLoaded', () => {
    
            //===
