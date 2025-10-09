@@ -14,6 +14,13 @@ function location_actual(){
 
 		//console.log(data.nombre);
         $("#nombre_invitacion").text(data.nombre);
+        if (data.tipo==1) {
+            var tipo = "Personal";
+        }
+        if (data.tipo==2) {
+            var tipo = "Familiar";
+        }
+        $("#tipo_de_inv").text(tipo);
 
 	});
 }

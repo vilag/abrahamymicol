@@ -2,20 +2,29 @@ listar_invitados();
 function guardar_invitacion(){
     var nombre = $("#nombre_inv").val();
 	var lugares = $("#nombre_inv_cant").val();
+	var tipo = $("#tipo_invitacion").val();
 
-	if (nombre!="") {
-		$.post("ajax/index.php?op=guardar_invitacion",{nombre:nombre,lugares:lugares},function(data, status)
+	if (nombre!="" && tipo!="") {
+		$.post("ajax/index.php?op=guardar_invitacion",{nombre:nombre,lugares:lugares,tipo:tipo},function(data, status)
 		{
 		data = JSON.parse(data);
 
-			alert("Registrado guardado exitosamente");
+			bootbox.alert("Registrado guardado exitosamente");
 			listar_invitados();
 		});
 	}else{
-		alert("Porfavor captura el nombre de la invitación");
+		bootbox.alert("Porfavor captura el nombre y tipo de invitación");
 	}
 
 		
+}
+
+function suma_invitados(){
+		$.post("ajax/index.php?op=suma_invitados",function(data, status)
+		{
+		data = JSON.parse(data);
+			$("#cant_tot_inv").text(data.total);
+		});
 }
 
 function listar_invitados(){
@@ -23,12 +32,13 @@ function listar_invitados(){
 		$.post("ajax/index.php?op=listar_invitados",function(r){
 	    $("#tbl_invitaciones").html(r);
 
-	                     
+	         suma_invitados();            
 	    });
 }
 
 async function copiarTexto(idinvitados) {
-	var textoACopiar = $("#txt_invitado"+idinvitados).text();
+	
+	var textoACopiar = "http://abrahamymicol-wedding.site/index.html?id="+idinvitados;
 	console.log(textoACopiar);
 	//return;
   try {
@@ -73,4 +83,98 @@ function buscar_nombre_ku(){
 
 	                     
 	});
+}
+
+function eliminar(idinvitados){
+	bootbox.confirm({
+		message: '¿Desea eliminar este registro?',
+		buttons: {
+			confirm: {
+				label: 'Si',
+				className: 'btn-success'
+			},
+			cancel: {
+				label: 'No',
+				className: 'btn-danger'
+			}
+		},
+		callback: function (result) {
+			if (result==true) {
+				$.post("ajax/index.php?op=eliminar",{idinvitados:idinvitados},function(data, status)
+				{
+				data = JSON.parse(data);
+
+					bootbox.alert("Registrado borrado exitosamente");
+					listar_invitados();
+				});
+			}
+		}
+	});
+
+		
+}
+var dialog;
+function actualizar(idinvitados, nombre, lugares, tipo){
+
+	// prompt('This is the default prompt!', function(result){ 
+	// 	console.log(result); 
+	// });
+
+	dialog = bootbox.dialog({
+		message: '<div>'+
+			'<div style="width: 100%; padding: 15px; display: flex; flex-direction: column; justify-content: left;">'+
+				'<span>Tipo</span>'+
+				'<select name="" id="nuevo_tipo_invitacion" style="height: 40px; margin-top: 5px;">'+
+					'<option value="1">Personal</option>'+
+					'<option value="2">Familiar</option>'+
+				'</select>'+
+			'</div>'+
+			'<div style="width: 100%; padding: 15px; float: left;">'+
+				'<span>Nombre</span>'+
+				'<input type="text" value="'+nombre+'" id="nuevo_nombre_invi"></input>'+
+			'</div>'+
+			'<div style="width: 100%; padding: 15px; float: left;">'+
+				'<span>Lugares</span>'+
+				'<input type="number" value="'+lugares+'" id="nuevo_nombre_inv_cant"></input>'+
+			'</div>'+
+			'<div style="width: 100%; padding: 15px; float: left;">'+
+				'<button onclick="cancel_update();">Cancelar</button>'+
+				'<button onclick="confirm_update('+idinvitados+');">Actualizar</button>'+
+			'</div>'+
+		'<div>',
+		closeButton: false
+	});
+
+	setTimeout(() => {
+		$("#nuevo_tipo_invitacion").val(tipo);
+	}, 500);
+
+	// do something in the background
+	
+
+}
+
+function cancel_update(){
+	dialog.modal('hide');
+}
+
+function confirm_update(idinvitados){
+    var nombre = $("#nuevo_nombre_invi").val();
+	var lugares = $("#nuevo_nombre_inv_cant").val();
+	var tipo = $("#nuevo_tipo_invitacion").val();
+
+	if (nombre!="" && tipo!="") {
+		$.post("ajax/index.php?op=update_invitacion",{idinvitados:idinvitados,nombre:nombre,lugares:lugares,tipo:tipo},function(data, status)
+		{
+		data = JSON.parse(data);
+
+			bootbox.alert("Registrado actualizado exitosamente");
+			listar_invitados();
+			cancel_update();
+		});
+	}else{
+		bootbox.alert("Porfavor captura el nombre y tipo de invitación");
+	}
+
+		
 }

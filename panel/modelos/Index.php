@@ -10,10 +10,10 @@ Class Index
 
 	}
 
-	public function guardar_invitacion($nombre,$lugares)
+	public function guardar_invitacion($nombre,$lugares,$tipo)
 	{
 
-		$sql="INSERT INTO invitados (nombre,lugares) VALUES('$nombre','$lugares')";
+		$sql="INSERT INTO invitados (nombre,lugares,tipo) VALUES('$nombre','$lugares','$tipo')";
 		return ejecutarConsulta($sql);			
 	}
 
@@ -22,6 +22,13 @@ Class Index
 
 		$sql="SELECT * FROM invitados ORDER BY idinvitados DESC";
 		return ejecutarConsulta($sql);			
+	}
+
+	public function suma_invitados()
+	{
+
+		$sql="SELECT sum(lugares) as total FROM invitados";
+		return ejecutarConsultaSimpleFila($sql);			
 	}
 
 	public function buscar_nombre($sub)
@@ -38,6 +45,19 @@ Class Index
 		return ejecutarConsulta($sql);			
 	}
 
+	public function eliminar($idinvitados)
+	{
+
+		$sql="DELETE FROM invitados WHERE idinvitados='$idinvitados'";
+		return ejecutarConsulta($sql);			
+	}
+
+	public function update_invitacion($idinvitados,$nombre,$lugares,$tipo)
+	{
+
+		$sql="UPDATE invitados SET nombre='$nombre', lugares='$lugares', tipo='$tipo' WHERE idinvitados='$idinvitados'";
+		return ejecutarConsulta($sql);			
+	}
 
 }
 ?>
