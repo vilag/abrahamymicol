@@ -63,6 +63,7 @@ function mostrar_confirm(){
 	}, 3000);
 }
 
+
 function abrir_invitacion(idinvitados){
 	$("#enlace_inv").attr("href","../index.php?id="+idinvitados);
 }
