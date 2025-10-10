@@ -41,6 +41,9 @@ switch ($_GET["op"])
 						if ($reg->tipo==2) {
 							$tipo = "Familiar";
 						}
+						if ($reg->tipo==3) {
+							$tipo = "Pareja";
+						}
 
 						echo '
 							

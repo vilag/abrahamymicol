@@ -19,12 +19,18 @@ function location_actual(){
 		//console.log(data.nombre);
         $("#nombre_invitacion").text(data.nombre);
         if (data.tipo==1) {
-            var tipo = "Personal";
+            var tipo = "Invitación Personal para:";
         }
         if (data.tipo==2) {
-            var tipo = "Familiar";
+            var tipo = "Invitación Familiar para:";
+        }
+        if (data.tipo==3) {
+            var tipo = "Invitación para la pareja:";
         }
         $("#tipo_de_inv").text(tipo);
+        $("#cant_lugares").text(data.lugares);
+       
+        
 
 	});
 }

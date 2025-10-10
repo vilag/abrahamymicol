@@ -157,13 +157,17 @@
         </div> -->
         <div class="bacasime-antique-regular" data-aos="fade-up"
      data-aos-duration="2000" style="width: 100%; font-size: 20px; text-align: center; padding-top: 50px; z-index: 3; color: #6f654e; overflow-wrap: break-word; text-transform: uppercase;">
-            <span>Invitación</span>&nbsp;<span id="tipo_de_inv"></span><br><span>para:</span>
+            <span id="tipo_de_inv"></span>
         </div>
         <div class="gwendolyn-bold" style="line-height: 40px; font-weight: 200; width: 100%; font-size: 40px; text-align: center; padding-top: 50px; z-index: 3; color: #947b45; display: flex; justify-content: center; align-items: center;">
             <div style="width: 90%; overflow-wrap: break-word">
                 <b id="nombre_invitacion"></b>
-            </div>
-            
+            </div> 
+        </div>
+        <div class="bacasime-antique-regular" style="line-height: 30px; font-weight: 200; width: 100%; font-size: 30px; text-align: center; padding-top: 50px; z-index: 3; color: #947b45; display: flex; justify-content: center; align-items: center;">
+            <div style="width: 90%; overflow-wrap: break-word;">
+                <span style="font-size: 20px;">Hemos reservado</span>&nbsp;&nbsp;<b style="font-size: 40px;" id="cant_lugares"></b>&nbsp;&nbsp;<span style="font-size: 20px;">Lugares en tu honor</span> 
+            </div> 
         </div>
         <div data-aos="fade-up"
      data-aos-anchor-placement="center-bottom" style="width: 100%; padding-top: 50px; display: flex; justify-content: center; align-items: center; z-index: 3; color: #6f654e;">
@@ -179,7 +183,7 @@
         </div> -->
         
     </div>
-    <div style="max-width: 100%; width: 100%; display: flex; justify-content: center; align-items: center;  background-color: #FFFCF5; height: 50px;">
+    <div style="max-width: 100%; width: 100%; display: flex; justify-content: center; align-items: center;  background-color: #FFFCF5; height: 100px;">
                 <div style="width: 20%; height: 2px; background-color: #c7aa90;"></div>
                 <div style="width: 5px; height: 5px; border-radius: 50%; background-color: #c7aa90; margin: 5px;"></div>
                 <div style="width: 20%; height: 2px; background-color: #c7aa90;"></div>
@@ -626,7 +630,7 @@
 @-webkit-keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
 
 .estilo_space_invi{
-  max-width: 100%; background-color: #FFFCF5; width: 100%; height: 400px;
+  max-width: 100%; background-color: #FFFCF5; width: 100%; height: 415px;
 }
 .estilo_box_itin{
   width: 40%; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;
@@ -722,7 +726,7 @@
     font-size: 30px;
   }
   .estilo_space_invi{
-    max-width: 100%; background-color: #FFFCF5; width: 100%; height: 350px;
+    max-width: 100%; background-color: #FFFCF5; width: 100%; height: 415px;
   }
 }
 
@@ -758,7 +762,7 @@
     font-size: 30px;
   }
   .estilo_space_invi{
-    max-width: 100%; background-color: #FFFCF5; width: 100%; height: 350px;
+    max-width: 100%; background-color: #FFFCF5; width: 100%; height: 415px;
   }
 }
 
@@ -794,7 +798,7 @@
     font-size: 30px;
   }
   .estilo_space_invi{
-    max-width: 100%; background-color: #FFFCF5; width: 100%; height: 350px;
+    max-width: 100%; background-color: #FFFCF5; width: 100%; height: 415px;
   }
   .estilo_box_itin{
     width: 20%; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;
@@ -833,7 +837,7 @@
     font-size: 30px;
   }
   .estilo_space_invi{
-    max-width: 100%; background-color: #FFFCF5; width: 100%; height: 350px;
+    max-width: 100%; background-color: #FFFCF5; width: 100%; height: 415px;
   }
   .estilo_box_itin{
     width: 20%; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;
@@ -881,7 +885,7 @@
     font-size: 30px;
   }
   .estilo_space_invi{
-    max-width: 100%; background-color: #FFFCF5; width: 100%; height: 350px;
+    max-width: 100%; background-color: #FFFCF5; width: 100%; height: 415px;
   }
   .estilo_box_itin{
     width: 20%; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;
@@ -938,7 +942,7 @@
     font-size: 30px;
   }
   .estilo_space_invi{
-    max-width: 100%; background-color: #FFFCF5; width: 100%; height: 350px;
+    max-width: 100%; background-color: #FFFCF5; width: 100%; height: 415px;
   }
   .estilo_box_itin{
     width: 20%; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;
@@ -999,7 +1003,7 @@
     font-size: 30px;
   }
   .estilo_space_invi{
-    max-width: 100%; background-color: #FFFCF5; width: 100%; height: 350px;
+    max-width: 100%; background-color: #FFFCF5; width: 100%; height: 415px;
   }
   .estilo_box_itin{
     width: 20%; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;
