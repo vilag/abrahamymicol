@@ -1,4 +1,7 @@
-location_actual();
+setTimeout(() => {
+    location_actual();
+}, 1000);
+
 function location_actual(){
     var urlCompleta = window.location.href;
     //console.log(urlCompleta);
@@ -6,7 +9,7 @@ function location_actual(){
     var valores = window.location.search;
 
     var sub = valores.slice(4, 20);
-    alert(sub);
+    //alert(sub);
     //console.log(sub);
     //return;
     $.post("panel/ajax/index.php?op=buscar_nombre",{sub:sub},function(data, status)
