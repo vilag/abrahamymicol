@@ -38,7 +38,7 @@ function listar_invitados(){
 
 async function copiarTexto(idinvitados) {
 	
-	var textoACopiar = "http://abrahamymicol-wedding.site/index.html?id="+idinvitados;
+	var textoACopiar = "http://abrahamymicol-wedding.site/index.php?id="+idinvitados;
 	console.log(textoACopiar);
 	//return;
   try {
@@ -64,7 +64,7 @@ function mostrar_confirm(){
 }
 
 function abrir_invitacion(idinvitados){
-	$("#enlace_inv").attr("href","../index.html?id="+idinvitados);
+	$("#enlace_inv").attr("href","../index.php?id="+idinvitados);
 }
 
 function abrir_registrar(){
