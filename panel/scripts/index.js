@@ -65,7 +65,9 @@ function mostrar_confirm(){
 
 
 function abrir_invitacion(idinvitados){
+
 	$("#enlace_inv").attr("href","../index.php?id="+idinvitados);
+	
 }
 
 function abrir_registrar(){
