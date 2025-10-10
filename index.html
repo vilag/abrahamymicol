@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Ballet:opsz@16..72&family=Corinthia:wght@400;700&family=Ephesis&family=Gwendolyn:wght@400;700&family=Luxurious+Script&family=Meddon&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Old+Uyghur&family=Parisienne&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rouge+Script&family=Vidaloka&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css">
+    <!-- <link rel="stylesheet" href="styles/style.css"> -->
 
 
 
@@ -501,6 +501,532 @@
             </div>
         </div>
     </div>
+    <style>
+        .ephesis-regular {
+    font-family: "Ephesis", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.montserrat-a {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.luxurious-script-regular {
+  font-family: "Luxurious Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rouge-script-regular {
+  font-family: "Rouge Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.corinthia-regular {
+  font-family: "Corinthia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.corinthia-bold {
+  font-family: "Corinthia", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ballet-f {
+  font-family: "Ballet", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-serif-display-f {
+  font-family: "Noto Serif Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.bacasime-antique-regular {
+  font-family: "Bacasime Antique", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-serif-old-uyghur-regular {
+  font-family: "Noto Serif Old Uyghur", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.parisienne-regular {
+  font-family: "Parisienne", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.meddon-regular {
+  font-family: "Meddon", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gwendolyn-regular {
+  font-family: "Gwendolyn", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gwendolyn-bold {
+  font-family: "Gwendolyn", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.estilo_content_space_cuenta{
+  width: 15%; float: left; text-align: center;
+}
+.tam_num_cuenta{
+  font-size: 30px;
+}
+.tam_puntos_cuenta{
+  font-size: 25px;
+}
+.tam_letras_cuenta{
+  font-size: 12px;
+}
+.tam_cuenta_r{
+  font-size: 20px;
+}
+
+.slide-bottom{-webkit-animation:slide-bottom 1s cubic-bezier(.25,.46,.45,.94) both;animation:slide-bottom 1s cubic-bezier(.25,.46,.45,.94) both}
+@-webkit-keyframes slide-bottom{0%{-webkit-transform:translateY(0);transform:translateY(0)}100%{-webkit-transform:translateY(30px);transform:translateY(30px)}}@keyframes slide-bottom{0%{-webkit-transform:translateY(0);transform:translateY(0)}100%{-webkit-transform:translateY(30px);transform:translateY(30px)}}
+
+.slide-top{-webkit-animation:slide-top 1s cubic-bezier(.25,.46,.45,.94) both;animation:slide-top 1s cubic-bezier(.25,.46,.45,.94) both}
+@-webkit-keyframes slide-top{0%{-webkit-transform:translateY(0);transform:translateY(0)}100%{-webkit-transform:translateY(-25px);transform:translateY(-25px)}}@keyframes slide-top{0%{-webkit-transform:translateY(0);transform:translateY(0)}100%{-webkit-transform:translateY(-25px);transform:translateY(-25px)}}
+
+.fade-in{-webkit-animation:fade-in 1.5s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in 1.5s cubic-bezier(.39,.575,.565,1.000) both}
+@-webkit-keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
+
+.estilo_space_invi{
+  max-width: 100%; background-color: #FFFCF5; width: 100%; height: 400px;
+}
+.estilo_box_itin{
+  width: 40%; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;
+}
+.estilo_marco_hombres{
+  float: left; width: 80%; height: 600px; border: #d9ac85 1px solid;
+}
+.estilo_marco_mujeres{
+  float: left; width: 80%; height: 900px; border: #d9ac85 1px solid; margin-top: 20px;
+}
+.estilo_invi{
+  width: 100%; text-align: center; font-size: 16px; text-transform: uppercase; line-height: 25px; padding: 10px;
+}
+.estilo_text_no_ninos{
+  width: 90%; text-align: center;  font-size: 16px;  color: #6f654e; text-transform: uppercase; line-height: 25px; padding: 10px;
+}
+.estilo_nombres_inicio{
+  padding-left: 0px; width: 100%; height: 500px; background-color: transparent; position: absolute; z-index: 3; font-size: 40px; color: #ffffff;
+}
+.estilo_textos_bib{
+  width: 100%; text-align: center; padding: 50px 10px;  line-height: 25px; color: #6f654e;
+}
+
+@media only screen and (max-width: 300px){
+  .estilo_img_princ1{
+    width: 72px; height: 341px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_img_princ2{
+    margin-top: -60px; width: 102px; height: 343px; float: left;  border: #FFFCF5 0px solid;
+  }
+  .estilo_img_princ3{
+    width: 71px; height: 347px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_content_princ_header{
+    width: 100%; max-width: 100%; height: 420px; background-color: #FFFCF5; display: flex; justify-content: center; align-items: center;
+  }
+  .estilo_content_texto_ini{
+    max-width: 100%; width: 100%; background-color: #FFFCF5; height: 550px;
+  }
+
+}
+
+@media only screen and (min-width: 301px) and (max-width: 400px){
+  .estilo_img_princ1{
+    width: 92px; height: 436px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_img_princ2{
+    margin-top: -50px; width: 131px; height: 440px; float: left;  border: #FFFCF5 0px solid;
+  }
+  .estilo_img_princ3{
+    width: 91px; height: 444px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_content_princ_header{
+    width: 100%; max-width: 100%; height: 515px; background-color: #FFFCF5; display: flex; justify-content: center; align-items: center;
+  }
+  .estilo_content_texto_ini{
+    max-width: 100%; width: 100%; background-color: #FFFCF5; height: 520px;
+  }
+  .estilo_obsequios_text{
+    width: 90%; text-align: center;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 500px){
+  .estilo_content_princ_header{
+    width: 100%; max-width: 100%; height: 515px; background-color: #FFFCF5; display: flex; justify-content: center; align-items: center;
+  }
+  .estilo_img_princ1{
+    width: 92px; height: 436px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_img_princ2{
+    margin-top: -49px; width: 131px; height: 440px; float: left;  border: #FFFCF5 0px solid;
+  }
+  .estilo_img_princ3{
+    width: 91px; height: 444px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_content_texto_ini{
+    max-width: 100%; width: 100%; background-color: #FFFCF5; height: 450px;
+  }
+  .estilo_content_space_cuenta{
+    width: 20%; float: left; text-align: center;
+  }
+  .tam_num_cuenta{
+    font-size: 45px;
+  }
+  .tam_puntos_cuenta{
+    font-size: 30px;
+  }
+  .tam_letras_cuenta{
+    font-size: 12px;
+  }
+  .tam_cuenta_r{
+    font-size: 30px;
+  }
+  .estilo_space_invi{
+    max-width: 100%; background-color: #FFFCF5; width: 100%; height: 350px;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 600px){
+  .estilo_content_princ_header{
+    width: 100%; max-width: 100%; height: 570px; background-color: #FFFCF5; display: flex; justify-content: center; align-items: center;
+  }
+  .estilo_img_princ1{
+    width: 106px; height: 502px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_img_princ2{
+    margin-top: -40px; width: 151px; height: 507px; float: left;  border: #FFFCF5 0px solid;
+  }
+  .estilo_img_princ3{
+    width: 105px; height: 513px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_content_texto_ini{
+    max-width: 100%; width: 100%; background-color: #FFFCF5; height: 450px;
+  }
+  .estilo_content_space_cuenta{
+    width: 20%; float: left; text-align: center;
+  }
+  .tam_num_cuenta{
+    font-size: 45px;
+  }
+  .tam_puntos_cuenta{
+    font-size: 30px;
+  }
+  .tam_letras_cuenta{
+    font-size: 12px;
+  }
+  .tam_cuenta_r{
+    font-size: 30px;
+  }
+  .estilo_space_invi{
+    max-width: 100%; background-color: #FFFCF5; width: 100%; height: 350px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 700px){
+  .estilo_content_princ_header{
+    width: 100%; max-width: 100%; height: 570px; background-color: #FFFCF5; display: flex; justify-content: center; align-items: center;
+  }
+  .estilo_img_princ1{
+    width: 107px; height: 502px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_img_princ2{
+    margin-top: -40px; width: 151px; height: 507px; float: left;  border: #FFFCF5 0px solid;
+  }
+  .estilo_img_princ3{
+    width: 105px; height: 513px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_content_texto_ini{
+    max-width: 100%; width: 100%; background-color: #FFFCF5; height: 400px;
+  }
+  .estilo_content_space_cuenta{
+    width: 20%; float: left; text-align: center;
+  }
+  .tam_num_cuenta{
+    font-size: 45px;
+  }
+  .tam_puntos_cuenta{
+    font-size: 30px;
+  }
+  .tam_letras_cuenta{
+    font-size: 12px;
+  }
+  .tam_cuenta_r{
+    font-size: 30px;
+  }
+  .estilo_space_invi{
+    max-width: 100%; background-color: #FFFCF5; width: 100%; height: 350px;
+  }
+  .estilo_box_itin{
+    width: 20%; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 800px){
+  .estilo_content_princ_header{
+    width: 100%; max-width: 100%; height: 570px; background-color: #FFFCF5; display: flex; justify-content: center; align-items: center;
+  }
+  .estilo_img_princ1{
+    width: 107px; height: 502px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_img_princ2{
+    margin-top: -40px; width: 152px; height: 507px; float: left;  border: #FFFCF5 0px solid;
+  }
+  .estilo_img_princ3{
+    width: 105px; height: 513px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_content_texto_ini{
+    max-width: 100%; width: 100%; background-color: #FFFCF5; height: 400px;
+  }
+  .estilo_content_space_cuenta{
+    width: 15%; float: left; text-align: center;
+  }
+  .tam_num_cuenta{
+    font-size: 45px;
+  }
+  .tam_puntos_cuenta{
+    font-size: 30px;
+  }
+  .tam_letras_cuenta{
+    font-size: 12px;
+  }
+  .tam_cuenta_r{
+    font-size: 30px;
+  }
+  .estilo_space_invi{
+    max-width: 100%; background-color: #FFFCF5; width: 100%; height: 350px;
+  }
+  .estilo_box_itin{
+    width: 20%; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;
+  }
+  .estilo_marco_hombres{
+    float: left; width: 400px; height: 600px; border: #d9ac85 1px solid;
+  }
+  .estilo_marco_mujeres{
+    float: left; width: 400px; height: 900px; border: #d9ac85 1px solid; margin-top: 20px;
+  }
+  .estilo_obsequios_text{
+    width: 500px; text-align: center;
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 900px){
+  .estilo_content_princ_header{
+    width: 100%; max-width: 100%; height: 570px; background-color: #FFFCF5; display: flex; justify-content: center; align-items: center;
+  }
+  .estilo_img_princ1{
+    width: 107px; height: 502px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_img_princ2{
+    margin-top: -40px; width: 152px; height: 507px; float: left;  border: #FFFCF5 0px solid;
+  }
+  .estilo_img_princ3{
+    width: 105px; height: 513px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_content_texto_ini{
+    max-width: 100%; width: 100%; background-color: #FFFCF5; height: 400px;
+  }
+  .estilo_content_space_cuenta{
+    width: 15%; float: left; text-align: center;
+  }
+  .tam_num_cuenta{
+    font-size: 45px;
+  }
+  .tam_puntos_cuenta{
+    font-size: 30px;
+  }
+  .tam_letras_cuenta{
+    font-size: 12px;
+  }
+  .tam_cuenta_r{
+    font-size: 30px;
+  }
+  .estilo_space_invi{
+    max-width: 100%; background-color: #FFFCF5; width: 100%; height: 350px;
+  }
+  .estilo_box_itin{
+    width: 20%; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;
+  }
+  .estilo_marco_hombres{
+    float: left; width: 400px; height: 600px; border: #d9ac85 1px solid;
+  }
+  .estilo_marco_mujeres{
+    float: left; width: 400px; height: 900px; border: #d9ac85 1px solid; margin-top: 20px;
+  }
+  .estilo_obsequios_text{
+    width: 500px; text-align: center;
+  }
+  .estilo_invi{
+    width: 600px; text-align: center; font-size: 16px; text-transform: uppercase; line-height: 25px; padding: 10px;
+  }
+  .estilo_text_no_ninos{
+    width: 600px; text-align: center;  font-size: 16px;  color: #6f654e; text-transform: uppercase; line-height: 25px; padding: 10px;
+  }
+  .estilo_nombres_inicio{
+    padding-left: 0px; width: 100%; height: 500px; background-color: transparent; position: absolute; z-index: 3; font-size: 50px; color: #ffffff;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1000px){
+  .estilo_content_princ_header{
+    width: 100%; max-width: 100%; height: 570px; background-color: #FFFCF5; display: flex; justify-content: center; align-items: center;
+  }
+  .estilo_img_princ1{
+    width: 107px; height: 502px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_img_princ2{
+    margin-top: -40px; width: 152px; height: 507px; float: left;  border: #FFFCF5 0px solid;
+  }
+  .estilo_img_princ3{
+    width: 105px; height: 513px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_content_texto_ini{
+    max-width: 100%; width: 100%; background-color: #FFFCF5; height: 400px;
+  }
+  .estilo_content_space_cuenta{
+    width: 15%; float: left; text-align: center;
+  }
+  .tam_num_cuenta{
+    font-size: 45px;
+  }
+  .tam_puntos_cuenta{
+    font-size: 30px;
+  }
+  .tam_letras_cuenta{
+    font-size: 12px;
+  }
+  .tam_cuenta_r{
+    font-size: 30px;
+  }
+  .estilo_space_invi{
+    max-width: 100%; background-color: #FFFCF5; width: 100%; height: 350px;
+  }
+  .estilo_box_itin{
+    width: 20%; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;
+  }
+  .estilo_marco_hombres{
+    float: left; width: 400px; height: 600px; border: #d9ac85 1px solid;
+  }
+  .estilo_marco_mujeres{
+    float: left; width: 400px; height: 900px; border: #d9ac85 1px solid; margin-top: 20px;
+  }
+  .estilo_obsequios_text{
+    width: 800px; text-align: center;
+  }
+  .estilo_invi{
+    width: 800px; text-align: center; font-size: 16px; text-transform: uppercase; line-height: 25px; padding: 10px;
+  }
+  .estilo_text_no_ninos{
+    width: 800px; text-align: center;  font-size: 16px;  color: #6f654e; text-transform: uppercase; line-height: 25px; padding: 10px;
+  }
+  .estilo_nombres_inicio{
+    padding-left: 0px; width: 100%; height: 500px; background-color: transparent; position: absolute; z-index: 3; font-size: 50px; color: #ffffff;
+  }
+  .estilo_textos_bib{
+    width: 800px; text-align: center; padding: 50px 10px;  line-height: 25px; color: #6f654e;
+  }
+}
+
+
+@media only screen and (min-width: 1001px){
+  .estilo_content_princ_header{
+    width: 100%; max-width: 100%; height: 570px; background-color: #FFFCF5; display: flex; justify-content: center; align-items: center;
+  }
+  .estilo_img_princ1{
+    width: 107px; height: 502px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_img_princ2{
+    margin-top: -40px; width: 152px; height: 507px; float: left;  border: #FFFCF5 0px solid;
+  }
+  .estilo_img_princ3{
+    width: 105px; height: 513px; float: left; border: #FFFCF5 3px solid; overflow: hidden; z-index: 1;
+  }
+  .estilo_content_texto_ini{
+    max-width: 100%; width: 100%; background-color: #FFFCF5; height: 400px;
+  }
+  .estilo_content_space_cuenta{
+    width: 150px; float: left; text-align: center;
+  }
+  .tam_num_cuenta{
+    font-size: 45px;
+  }
+  .tam_puntos_cuenta{
+    font-size: 30px;
+  }
+  .tam_letras_cuenta{
+    font-size: 12px;
+  }
+  .tam_cuenta_r{
+    font-size: 30px;
+  }
+  .estilo_space_invi{
+    max-width: 100%; background-color: #FFFCF5; width: 100%; height: 350px;
+  }
+  .estilo_box_itin{
+    width: 20%; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;
+  }
+  .estilo_marco_hombres{
+    float: left; width: 400px; height: 600px; border: #d9ac85 1px solid;
+  }
+  .estilo_marco_mujeres{
+    float: left; width: 400px; height: 900px; border: #d9ac85 1px solid; margin-top: 20px;
+  }
+  .estilo_obsequios_text{
+    width: 800px; text-align: center;
+  }
+  .estilo_invi{
+    width: 800px; text-align: center; font-size: 16px; text-transform: uppercase; line-height: 25px; padding: 10px;
+  }
+  .estilo_text_no_ninos{
+    width: 800px; text-align: center;  font-size: 16px;  color: #6f654e; text-transform: uppercase; line-height: 25px; padding: 10px;
+  }
+  .estilo_nombres_inicio{
+    padding-left: 0px; width: 100%; height: 500px; background-color: transparent; position: absolute; z-index: 3; font-size: 50px; color: #ffffff;
+  }
+  .estilo_textos_bib{
+    width: 800px; text-align: center; padding: 50px 10px;  line-height: 25px; color: #6f654e;
+  }
+}
+    </style>
 </body>
 <script>
 //   AOS.init();
