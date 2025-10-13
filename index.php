@@ -231,7 +231,7 @@
                     <b class="gwendolyn-bold" style="font-size: 40px; color: #000000;">Hombres</b>
                 </div>
                 <div class="bacasime-antique-regular" style="width: 100%; text-align: center;  line-height: 30px; margin-top: 10px; font-size: 16px; color: #000000;">
-                        <span>Traje o Smoking</span><br>
+                        <span>Traje o Smoking <span style="text-decoration: underline black;">negro</span></span><br>
                         <span>Camisa blanca</span><br>
                         <span>Moño <span style="text-decoration: underline black;">negro</span></span><br>
                         <span>Zapatos de vestir negros</span><br>
