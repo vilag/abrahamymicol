@@ -1,3 +1,5 @@
+//ajuste_volumen();
+clase_nota();
 setTimeout(() => {
     location_actual();
 }, 1000);
@@ -85,3 +87,52 @@ function location_actual(){
            // Refresh every second
            setInterval(updateCountdown, MILLISECONDS_OF_A_SECOND);
         });
+
+// function ajuste_volumen(){
+//     var audio = document.getElementById("pista_inicial");
+//     audio.volume = 0.3; // Establece el volumen a la mitad
+// }
+
+// var scroll_uno = 0;
+// window.addEventListener("scroll", function() {
+//     if (scroll_uno==0) {
+//         var audio = new Audio('audio/misterio.mp3');
+//         audio.play();
+//         scroll_uno=1;
+//     }
+    
+//     return;
+//     var audio = document.getElementById("pista_inicial");
+//     audio.play();
+// });
+var status_audio = 1;
+function reproducir_musica(){
+    var audio = document.getElementById("pista_inicial");
+    if (status_audio==1) {
+        audio.play();
+        audio.volume = 0.3;
+        status_audio = 2;
+    }else{
+        if (status_audio==2) {
+            audio.pause();
+            status_audio = 1;
+        }
+    }
+    
+    
+}
+
+function clase_nota(){
+    // setTimeout(() => {
+        
+    //     $("#div_nota").addClass("slide-in-right");
+    //     document.getElementById("div_nota").style.display="block;"
+
+    //}, 1000);
+
+    setTimeout(() => {
+         $("#div_nota").removeClass("slide-in-right");
+          $("#div_nota").addClass("slide-out-right");
+    }, 5000);
+    
+}

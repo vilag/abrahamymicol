@@ -33,9 +33,19 @@
 
 </head>
 <body style="all: revert; background-color: #FFFCF5; width: 100%; margin: 0; padding: 0; position: relative;">
+  <audio id="pista_inicial" style="position: absolute; z-index: 5; visibility: hidden; pointer-events: none;" autoplay loop controls>
+    <source src="audio/misterio2.mp3" type="audio/mpeg">
+    Tu navegador no soporta el elemento de audio.
+  </audio>
     <script src="panel/scripts/jquery.min.js"></script>
     
     <!-- <script src="scripts/main.js"></script> -->
+     <div style="display: flex; justify-content: center; align-items: center; width: 60px; height: 60px; border-radius: 50%; background-color: transparent; position: fixed; z-index: 3; top: 90vh; right: 10px;">
+      <img src="img/nuevo/vinyl.png" style="width: 70%;" class="heartbeat" onclick="reproducir_musica();" alt="">
+     </div>
+     <div id="div_nota" class="slide-in-right noto-serif-old-uyghur-regular" style="padding: 5px; background-color: #79462eff; color: #ffffff; position: fixed; z-index: 3; top: 92vh; right: 80px; border-radius: 10px;">
+      <span>Click para reproducir y pausar audio</span>      
+     </div>
     <div style="width: 100%;">
         <div class="alex-brush-regular" style="width: 100%; height: 120px; float: left; background-color: #FFFCF5; display: flex; justify-content: center; color: #000000; text-shadow: 5px 5px 10px rgba(0,0,0,0.3);">
             <div style="width: 20%; float: left; height: 100px; font-size: 50px; display: flex; justify-content: right; align-items: center;">
@@ -635,6 +645,15 @@
 
 .fade-in{-webkit-animation:fade-in 1.5s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in 1.5s cubic-bezier(.39,.575,.565,1.000) both}
 @-webkit-keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
+
+.heartbeat{-webkit-animation:heartbeat 1.5s ease-in-out infinite both;animation:heartbeat 1.5s ease-in-out infinite both}
+@-webkit-keyframes heartbeat{from{-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:center center;transform-origin:center center;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}10%{-webkit-transform:scale(.91);transform:scale(.91);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}17%{-webkit-transform:scale(.98);transform:scale(.98);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}33%{-webkit-transform:scale(.87);transform:scale(.87);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}45%{-webkit-transform:scale(1);transform:scale(1);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}@keyframes heartbeat{from{-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:center center;transform-origin:center center;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}10%{-webkit-transform:scale(.91);transform:scale(.91);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}17%{-webkit-transform:scale(.98);transform:scale(.98);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}33%{-webkit-transform:scale(.87);transform:scale(.87);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}45%{-webkit-transform:scale(1);transform:scale(1);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}
+
+.slide-in-right{-webkit-animation:slide-in-right 1s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-right 1s cubic-bezier(.25,.46,.45,.94) both}
+@-webkit-keyframes slide-in-right{0%{-webkit-transform:translateX(1000px);transform:translateX(1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes slide-in-right{0%{-webkit-transform:translateX(1000px);transform:translateX(1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
+
+.slide-out-right{-webkit-animation:slide-out-right 1s cubic-bezier(.55,.085,.68,.53) both;animation:slide-out-right 1s cubic-bezier(.55,.085,.68,.53) both}
+@-webkit-keyframes slide-out-right{0%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}100%{-webkit-transform:translateX(1000px);transform:translateX(1000px);opacity:0}}@keyframes slide-out-right{0%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}100%{-webkit-transform:translateX(1000px);transform:translateX(1000px);opacity:0}}
 
 .estilo_space_invi{
   max-width: 100%; background-color: #FFFCF5; width: 100%; height: 415px;
