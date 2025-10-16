@@ -225,7 +225,7 @@
             <span  style="font-size: 20px; color: #000000; text-transform: uppercase;">Código de vestimenta <br> (etiqueta)</span>
         </div>
         <div style="width: 100%; display: flex; justify-content: center; align-items: center; flex-direction: column;">
-            <div class="estilo_marco_hombres" data-aos="fade-left" data-aos-delay="500">
+            <div class="estilo_marco_hombres" data-aos="fade-right" data-aos-delay="500">
                 <div style="width: 100%; display: flex; justify-content: center; align-items: center; height: 150px; margin-top: 35px;">
                     <img src="img/vector_h.png" style="width: 100px; height: 160px; margin-top: 10px;" alt="">
                 </div>
@@ -418,7 +418,7 @@
                     <b>12:00 PM</b><br>
                     <b>CEREMONIA</b>
                 </div>
-                <div data-aos="zoom-out-right" style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
+                <div data-aos="zoom-out-up" style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
                    <img src="img/wedding-arch_black_cafe.png" style="width: 50px;" alt="">
                    
                 </div>
@@ -426,14 +426,14 @@
                     <b>2:10 PM</b><br>
                     <b>SESIÓN <br> DE FOTOS</b>
                 </div>
-                <div data-aos="zoom-out-right" style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
+                <div data-aos="zoom-out-up" style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
                    <img src="img/dance_cafe.png" style="width: 70px;" alt="">  
                 </div>
                 <div data-aos="flip-down" style="font-size: 16px; color: #000000; line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">  
                     <b>3:30 PM</b><br>
                     <b>COMIDA Y <br> BRINDIS</b>
                 </div>
-                <div data-aos="zoom-out-right" style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
+                <div data-aos="zoom-out-up" style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
                    <img src="img/speaking_cafe.png" style="width: 70px;" alt="">  
                 </div>
                 <div data-aos="flip-down" style="font-size: 16px; color: #000000; line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">  
@@ -465,28 +465,28 @@
                 <div data-aos="flip-down" data-aos-delay="200" style="width: 2px; height: 100px; background-color: transparent;"></div>
             </div>
             <div class="estilo_box_itin">
-                <div data-aos="zoom-out-left" style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
+                <div data-aos="zoom-out-down" style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
                     <img src="img/wedding-rings_cafe.png" style="width: 50px;" alt="">
                 </div>
                 <div data-aos="flip-down" style="font-size: 16px; color: #000000; line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
                     <b>2:00 PM</b><br>
                     <b>RECEPCIÓN</b>
                 </div>
-                <div data-aos="zoom-out-left" style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
+                <div data-aos="zoom-out-down" style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
                     <img src="img/wedding-video_cafe.png" style="width: 70px;" alt="">
                 </div>
                 <div data-aos="flip-down" style="font-size: 16px; color: #000000; line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
                     <b>3:15 PM</b><br>
                     <b>PRIMER <br> BAILE NOVIOS</b>
                 </div>
-                <div data-aos="zoom-out-left" style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
+                <div data-aos="zoom-out-down" style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
                     <img src="img/brindis-with-wine-glasses_cafe.png" style="width: 60px;" alt="">
                 </div>
                 <div data-aos="flip-down" style="font-size: 16px; color: #000000; line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
                     <b>5:00 PM</b><br>
                     <b>TIEMPO DE <br> CONVIVENCIA</b>
                 </div>
-                <div data-aos="zoom-out-left" style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
+                <div data-aos="zoom-out-down" style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
                     <img src="img/wedding-cake_cafe.png" style="width: 60px;" alt="">
                 </div>
                 <!-- <div data-aos="flip-down" style="color: #6f654e; line-height: 25px; width: 200px; height: 100px; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;">
