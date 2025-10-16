@@ -170,12 +170,14 @@
      data-aos-duration="2000" style="width: 100%; font-size: 20px; text-align: center; padding-top: 50px; z-index: 3; color: #000000; overflow-wrap: break-word; text-transform: uppercase;">
             <span id="tipo_de_inv"></span>
         </div>
-        <div class="gwendolyn-bold" style="line-height: 40px; font-weight: 200; width: 100%; font-size: 40px; text-align: center; padding-top: 50px; z-index: 3; color: #000000; display: flex; justify-content: center; align-items: center;">
+        <div data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1000" class="gwendolyn-bold" style="line-height: 40px; font-weight: 200; width: 100%; font-size: 40px; text-align: center; padding-top: 50px; z-index: 3; color: #000000; display: flex; justify-content: center; align-items: center;">
             <div style="width: 90%; overflow-wrap: break-word">
                 <b id="nombre_invitacion"></b>
             </div> 
         </div>
-        <div class="bacasime-antique-regular" style="line-height: 30px; font-weight: 200; width: 100%; font-size: 30px; text-align: center; padding-top: 50px; z-index: 3; color: #000000; display: flex; justify-content: center; align-items: center;">
+        <div data-aos="flip-down" data-aos-delay="500" class="bacasime-antique-regular" style="line-height: 30px; font-weight: 200; width: 100%; font-size: 30px; text-align: center; padding-top: 50px; z-index: 3; color: #000000; display: flex; justify-content: center; align-items: center;">
             <div style="width: 90%; overflow-wrap: break-word;">
                 <span style="font-size: 20px;">Hemos reservado</span>&nbsp;&nbsp;<b style="font-size: 40px;" id="cant_lugares"></b>&nbsp;&nbsp;<span style="font-size: 20px;">Lugares en tu honor</span> 
             </div> 
