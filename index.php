@@ -212,7 +212,7 @@
     </div>
     <div data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="1000" style="max-width: 100%; width: 100%; height: 600px; background-image: url(img/nuevo/img1.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;">
+     data-aos-duration="1000" style="margin-left: 1px; width: 100%; height: 600px; background-image: url(img/nuevo/img1.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;">
         <!-- <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
                 <img src="img/couple-love.jpg" style="width: 70%; margin: 20px;" alt="">
          </div> -->
@@ -328,7 +328,7 @@
     </div>
     <div data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="1000" style="max-width: 100%; width: 100%; height: 600px; background-image: url(img/nuevo/img2.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;">
+     data-aos-duration="1000" style="margin-left: 1px; width: 100%; height: 600px; background-image: url(img/nuevo/img2.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;">
         
     </div>
     <div style="max-width: 100%; width: 100%; padding-top: 50px; background-color: #FFFCF5;">
@@ -399,7 +399,7 @@
     </div>
     <div data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="1000" style="max-width: 100%; width: 100%; height: 600px; background-image: url(img/nuevo/img3.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;">
+     data-aos-duration="1000" style="margin-left: 1px; width: 100%; height: 600px; background-image: url(img/nuevo/img3.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;">
         <!-- <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
                 <img src="img/couple-love.jpg" style="width: 70%; margin: 20px;" alt="">
          </div> -->
@@ -444,23 +444,23 @@
             </div>
             
             <div style="width: 30px; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;">
-                <div style="width: 2px; height: 100px; background-color: transparent;"></div>
-                <div style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
-                <div style="width: 2px; height: 100px; background-color: #c7aa90;"></div>
-                <div style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
-                <div style="width: 2px; height: 100px; background-color: #c7aa90;"></div>
-                <div style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
-                <div style="width: 2px; height: 100px; background-color: #c7aa90;"></div>
-                <div style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
-                <div style="width: 2px; height: 100px; background-color: #c7aa90;"></div>
-                <div style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
-                <div style="width: 2px; height: 100px; background-color: #c7aa90;"></div>
-                <div style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
-                <div style="width: 2px; height: 100px; background-color: #c7aa90;"></div>
-                <div style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
-                <div style="width: 2px; height: 100px; background-color: #c7aa90;"></div>
-                <div style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
-                <div style="width: 2px; height: 100px; background-color: transparent;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 2px; height: 100px; background-color: transparent;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 2px; height: 100px; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 2px; height: 100px; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 2px; height: 100px; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 2px; height: 100px; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 2px; height: 100px; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 2px; height: 100px; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 2px; height: 100px; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 2px; height: 100px; background-color: transparent;"></div>
             </div>
             <div class="estilo_box_itin">
                 <div style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
@@ -501,7 +501,7 @@
         </div>
         <div style="width: 100%; height: 500px; margin-top: 50px;">
             <div class="bacasime-antique-regular" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" style="width: 100%; display: flex; justify-content: center; text-transform: uppercase; color: #000000;">
-                <div class="estilo_obsequios_text">
+                <div class="estilo_obsequios_text" style="text-align: center;">
                     <b style="font-size: 16px;">¡Gracias por acompañarnos en esta ocasión tan especial!</b><br><br>
                     <b  style="font-size: 16px;">Si en su corazón está el obsequiarnos algo para iniciar nuestra nueva etapa y todos los proyectos con los que soñamos, agradecemos enormemente sea de manera monetaria en efectivo (sobre) o transferencia bancaria a la cuenta:</b>
                 </div>
