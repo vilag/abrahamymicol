@@ -171,13 +171,15 @@
             <span id="tipo_de_inv"></span>
         </div>
         <div class="gwendolyn-bold" style="line-height: 40px; font-weight: 200; width: 100%; font-size: 40px; text-align: center; padding-top: 50px; z-index: 3; color: #000000; display: flex; justify-content: center; align-items: center;">
-            <div style="width: 90%; overflow-wrap: break-word">
+            <div data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500" style="width: 90%; overflow-wrap: break-word">
                 <b id="nombre_invitacion"></b>
             </div> 
         </div>
         <div class="bacasime-antique-regular" style="line-height: 30px; font-weight: 200; width: 100%; font-size: 30px; text-align: center; padding-top: 50px; z-index: 3; color: #000000; display: flex; justify-content: center; align-items: center;">
-            <div style="width: 90%; overflow-wrap: break-word;">
-                <span style="font-size: 20px;">Hemos reservado</span>&nbsp;&nbsp;<b style="font-size: 40px;" id="cant_lugares"></b>&nbsp;&nbsp;<span style="font-size: 20px;">Lugares en tu honor</span> 
+            <div data-aos="flip-down" data-aos-delay="500" style="width: 90%; overflow-wrap: break-word;">
+                <span style="font-size: 20px;">Hemos reservado</span>&nbsp;&nbsp;<b style="font-size: 40px;"  id="cant_lugares"></b>&nbsp;&nbsp;<span style="font-size: 20px;">Lugares en tu honor</span> 
             </div> 
         </div>
         <div data-aos="fade-up"
@@ -223,7 +225,7 @@
             <span  style="font-size: 20px; color: #000000; text-transform: uppercase;">Código de vestimenta <br> (etiqueta)</span>
         </div>
         <div style="width: 100%; display: flex; justify-content: center; align-items: center; flex-direction: column;">
-            <div class="estilo_marco_hombres">
+            <div class="estilo_marco_hombres" data-aos="fade-left" data-aos-delay="500">
                 <div style="width: 100%; display: flex; justify-content: center; align-items: center; height: 150px; margin-top: 35px;">
                     <img src="img/vector_h.png" style="width: 100px; height: 160px; margin-top: 10px;" alt="">
                 </div>
@@ -261,7 +263,7 @@
                 </div>
             </div>
 
-            <div class="estilo_marco_mujeres">
+            <div data-aos="fade-right" data-aos-delay="500" class="estilo_marco_mujeres">
                 <div style="width: 100%; display: flex; justify-content: center; align-items: center; height: 150px; margin-top: 35px;">
                     <img src="img/vector_m.png" style="width: 200px; height: 200px; margin-top: 10px;" alt="">
                 </div>
@@ -343,19 +345,19 @@
                 </div>
                 <div class="bacasime-antique-regular" style="width: 100%; text-align: center; line-height: 30px; margin-top: 20px; font-size: 20px; color: #000000;">
                     
-                    <div style="width: 100%; text-align: center; margin-top: 20px;">
+                    <div data-aos="flip-down" style="width: 100%; text-align: center; margin-top: 20px;">
                         <span style="font-size: 20px;">Fecha:</span>
                     </div>
-                    <div style="width: 100%; text-align: center;">
+                    <div data-aos="flip-down" style="width: 100%; text-align: center;">
                         <b style="font-size: 16px; text-transform: uppercase;">16 de noviembre 2025</b>
                     </div>
-                    <div style="width: 100%; text-align: center; margin-top: 20px;">
+                    <div data-aos="flip-down" style="width: 100%; text-align: center; margin-top: 20px;">
                         <span style="font-size: 20px;">Hora:</span>
                     </div>
-                    <div style="width: 100%; text-align: center;">
+                    <div data-aos="flip-down" style="width: 100%; text-align: center;">
                         <b style="font-size: 16px; text-transform: uppercase;">12:00 pm</b>
                     </div>
-                    <div style="width: 100%; text-align: center; margin-top: 30px;">
+                    <div data-aos="flip-down" style="width: 100%; text-align: center; margin-top: 30px;">
                         <b style="font-size: 20px; text-transform: uppercase;">Favor de ser puntuales</b>
                     </div>
                     
@@ -374,7 +376,7 @@
                     <img src="img/road-sign_cafe.png" style="width: 100px; height: 100px; margin-top: 10px;" alt="">
                 </div>
                 <div class="bacasime-antique-regular" style="width: 100%; text-align: center; line-height: 30px; margin-top: 20px; color: #000000;">
-                    <div style="width: 100%; text-align: center;">
+                    <div data-aos="flip-down" style="width: 100%; text-align: center;">
                         <span style="font-size: 20px;">Lugar:</span>
                     </div>
                     <!-- <div data-aos="zoom-out-left"
@@ -382,10 +384,10 @@
      data-aos-duration="500" style="width: 100%; text-align: center;">
                         <b>Jardín central</b>
                     </div> -->
-                    <div style="width: 100%; text-align: center; line-height: 22px; margin-top: 10px; font-size: 16px; text-transform: uppercase;">
+                    <div data-aos="flip-down" style="width: 100%; text-align: center; line-height: 22px; margin-top: 10px; font-size: 16px; text-transform: uppercase;">
                         <b>Cabaña del oso #8, Camino del oso, <br> Fracc. Los Cazos, Mazamitla, Jalisco.</b>
                     </div>
-                    <div data-aos="fade-down" style="width: 100%; text-align: center; line-height: 22px; margin-top: 30px;">
+                    <div data-aos="flip-down" data-aos="fade-down" style="width: 100%; text-align: center; line-height: 22px; margin-top: 30px;">
                         <a href="https://maps.app.goo.gl/Uog8sG1xcMj6pqXJ7" target="_blank">
                             <button style="background-color: #846f4f; border: none; border-radius: 10px; padding: 15px 25px; color: #fbfaf7; border: #ead8c4 1px solid; text-transform: uppercase;">¿Como llegar?</button>
                         </a>
@@ -416,7 +418,7 @@
                     <b>12:00 PM</b><br>
                     <b>CEREMONIA</b>
                 </div>
-                <div style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
+                <div data-aos="zoom-out-right" style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
                    <img src="img/wedding-arch_black_cafe.png" style="width: 50px;" alt="">
                    
                 </div>
@@ -424,14 +426,14 @@
                     <b>2:10 PM</b><br>
                     <b>SESIÓN <br> DE FOTOS</b>
                 </div>
-                <div style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
+                <div data-aos="zoom-out-right" style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
                    <img src="img/dance_cafe.png" style="width: 70px;" alt="">  
                 </div>
                 <div data-aos="flip-down" style="font-size: 16px; color: #000000; line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">  
                     <b>3:30 PM</b><br>
                     <b>COMIDA Y <br> BRINDIS</b>
                 </div>
-                <div style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
+                <div data-aos="zoom-out-right" style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
                    <img src="img/speaking_cafe.png" style="width: 70px;" alt="">  
                 </div>
                 <div data-aos="flip-down" style="font-size: 16px; color: #000000; line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">  
@@ -444,47 +446,47 @@
             </div>
             
             <div style="width: 30px; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;">
-                <div style="width: 2px; height: 100px; background-color: transparent;"></div>
-                <div style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
-                <div style="width: 2px; height: 100px; background-color: #c7aa90;"></div>
-                <div style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
-                <div style="width: 2px; height: 100px; background-color: #c7aa90;"></div>
-                <div style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
-                <div style="width: 2px; height: 100px; background-color: #c7aa90;"></div>
-                <div style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
-                <div style="width: 2px; height: 100px; background-color: #c7aa90;"></div>
-                <div style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
-                <div style="width: 2px; height: 100px; background-color: #c7aa90;"></div>
-                <div style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
-                <div style="width: 2px; height: 100px; background-color: #c7aa90;"></div>
-                <div style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
-                <div style="width: 2px; height: 100px; background-color: #c7aa90;"></div>
-                <div style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
-                <div style="width: 2px; height: 100px; background-color: transparent;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 2px; height: 100px; background-color: transparent;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 2px; height: 100px; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 2px; height: 100px; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 2px; height: 100px; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 2px; height: 100px; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 2px; height: 100px; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 2px; height: 100px; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 2px; height: 100px; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 10px; height: 10px; border-radius: 50%; background-color: #c7aa90;"></div>
+                <div data-aos="flip-down" data-aos-delay="200" style="width: 2px; height: 100px; background-color: transparent;"></div>
             </div>
             <div class="estilo_box_itin">
-                <div style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
+                <div data-aos="zoom-out-left" style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
                     <img src="img/wedding-rings_cafe.png" style="width: 50px;" alt="">
                 </div>
                 <div data-aos="flip-down" style="font-size: 16px; color: #000000; line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
                     <b>2:00 PM</b><br>
                     <b>RECEPCIÓN</b>
                 </div>
-                <div style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
+                <div data-aos="zoom-out-left" style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
                     <img src="img/wedding-video_cafe.png" style="width: 70px;" alt="">
                 </div>
                 <div data-aos="flip-down" style="font-size: 16px; color: #000000; line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
                     <b>3:15 PM</b><br>
                     <b>PRIMER <br> BAILE NOVIOS</b>
                 </div>
-                <div style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
+                <div data-aos="zoom-out-left" style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
                     <img src="img/brindis-with-wine-glasses_cafe.png" style="width: 60px;" alt="">
                 </div>
                 <div data-aos="flip-down" style="font-size: 16px; color: #000000; line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
                     <b>5:00 PM</b><br>
                     <b>TIEMPO DE <br> CONVIVENCIA</b>
                 </div>
-                <div style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
+                <div data-aos="zoom-out-left" style="line-height: 25px; width: 200px; height: 110px; border: rgba(0,0,0,0) 1px solid; text-align: center;">
                     <img src="img/wedding-cake_cafe.png" style="width: 60px;" alt="">
                 </div>
                 <!-- <div data-aos="flip-down" style="color: #6f654e; line-height: 25px; width: 200px; height: 100px; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;">
@@ -508,7 +510,8 @@
                 
 
             </div>
-            <div class="bacasime-antique-regular" style="width: 100%; text-align: center; color: #000000; margin-top: 30px; line-height: 30px; font-size: 18px;">
+            <div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom class="bacasime-antique-regular" style="width: 100%; text-align: center; color: #000000; margin-top: 30px; line-height: 30px; font-size: 18px;">
                 BANCO: <br> <b data-aos="flip-down" data-aos-delay="300" style="letter-spacing: 1px;" class="noto-serif-old-uyghur-regular">STORI</b><br>
                 <!-- <b data-aos="flip-down" data-aos-delay="400">Numero de cuenta:</b><br> -->
                 CUENTA CLABE: <br> <b data-aos="flip-down" data-aos-delay="500" style="letter-spacing: 1px;" class="noto-serif-old-uyghur-regular">646180402305534797</b><br>
