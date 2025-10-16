@@ -101,7 +101,7 @@
             
         </div>  
     </div>
-    <div style="max-width: 100%; width: 100%; height: 450px; background-image: url(img/nuevo/cuenta.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;">
+    <div style="margin-left: 1px; width: 100%; height: 450px; background-image: url(img/nuevo/cuenta.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;">
         <div class="noto-serif-old-uyghur-regular" style="width: 100%; display: flex; justify-content: center; align-items: center; height: 200px; color: #FFFCF5; background-color: rgba(0,0,0,0.3);">
             <span data-aos="fade-up"
      data-aos-anchor-placement="top-bottom" class="tam_cuenta_r">CUENTA REGRESIVA</span>
