@@ -170,9 +170,7 @@
      data-aos-duration="2000" style="width: 100%; font-size: 20px; text-align: center; padding-top: 50px; z-index: 3; color: #000000; overflow-wrap: break-word; text-transform: uppercase;">
             <span id="tipo_de_inv"></span>
         </div>
-        <div data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1000" class="gwendolyn-bold" style="line-height: 40px; font-weight: 200; width: 100%; font-size: 40px; text-align: center; padding-top: 50px; z-index: 3; color: #000000; display: flex; justify-content: center; align-items: center;">
+        <div data-aos="fade-down" data-aos-delay="500" class="gwendolyn-bold" style="line-height: 40px; font-weight: 200; width: 100%; font-size: 40px; text-align: center; padding-top: 50px; z-index: 3; color: #000000; display: flex; justify-content: center; align-items: center;">
             <div style="width: 90%; overflow-wrap: break-word">
                 <b id="nombre_invitacion"></b>
             </div> 
