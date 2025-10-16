@@ -175,7 +175,7 @@
                 <b id="nombre_invitacion"></b>
             </div> 
         </div>
-        <div data-aos="flip-down" data-aos-delay="500" class="bacasime-antique-regular" style="line-height: 30px; font-weight: 200; width: 100%; font-size: 30px; text-align: center; padding-top: 50px; z-index: 3; color: #000000; display: flex; justify-content: center; align-items: center;">
+        <div class="bacasime-antique-regular" style="line-height: 30px; font-weight: 200; width: 100%; font-size: 30px; text-align: center; padding-top: 50px; z-index: 3; color: #000000; display: flex; justify-content: center; align-items: center;">
             <div style="width: 90%; overflow-wrap: break-word;">
                 <span style="font-size: 20px;">Hemos reservado</span>&nbsp;&nbsp;<b style="font-size: 40px;" id="cant_lugares"></b>&nbsp;&nbsp;<span style="font-size: 20px;">Lugares en tu honor</span> 
             </div> 
@@ -210,19 +210,19 @@
             </div>
         </div>
     </div>
-    <div data-aos="fade-down"
+    <div data-aos="fade-up"
      data-aos-easing="linear"
-     data-aos-duration="1000" style="margin-left: 1px; width: 100%; height: 600px; background-image: url(img/nuevo/img1.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;">
+     data-aos-duration="500" style="margin-left: 1px; width: 100%; height: 600px; background-image: url(img/nuevo/img1.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;">
         <!-- <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
                 <img src="img/couple-love.jpg" style="width: 70%; margin: 20px;" alt="">
          </div> -->
     </div>
     
     <div style="max-width: 100%; width: 100%; padding-top: 50px; padding-bottom: 100px; background-color: #FFFCF5;">
-        <div class="bacasime-antique-regular" data-aos="fade-up" data-aos-duration="2000" style="width: 100%; text-align: center; height: 100px; line-height: 25px;">
+        <div class="bacasime-antique-regular" data-aos="fade-down" data-aos-duration="1000" style="width: 100%; text-align: center; height: 100px; line-height: 25px;">
             <span  style="font-size: 20px; color: #000000; text-transform: uppercase;">Código de vestimenta <br> (etiqueta)</span>
         </div>
-        <div style="width: 100%; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+        <div data-aos="fade-up" style="width: 100%; display: flex; justify-content: center; align-items: center; flex-direction: column;">
             <div class="estilo_marco_hombres">
                 <div style="width: 100%; display: flex; justify-content: center; align-items: center; height: 150px; margin-top: 35px;">
                     <img src="img/vector_h.png" style="width: 100px; height: 160px; margin-top: 10px;" alt="">
@@ -231,10 +231,18 @@
                     <b class="gwendolyn-bold" style="font-size: 40px; color: #000000;">Hombres</b>
                 </div>
                 <div class="bacasime-antique-regular" style="width: 100%; text-align: center;  line-height: 30px; margin-top: 10px; font-size: 16px; color: #000000;">
-                        <span>Traje o Smoking <span style="text-decoration: underline black;">negro</span></span><br>
-                        <span>Camisa blanca</span><br>
-                        <span>Moño <span style="text-decoration: underline black;">negro</span></span><br>
-                        <span>Zapatos de vestir negros</span><br>
+                        <div data-aos="flip-up" data-aos-delay="100" style="width: 100%; display: flex; justify-content: center; align-items: center;">
+                          <span>Traje o Smoking <span style="text-decoration: underline black;">negro</span></span>
+                        </div>  
+                        <div data-aos="flip-up" data-aos-delay="100" style="width: 100%; display: flex; justify-content: center; align-items: center;">
+                          <span>Camisa blanca</span>
+                        </div> 
+                        <div data-aos="flip-up" data-aos-delay="100" style="width: 100%; display: flex; justify-content: center; align-items: center;">
+                          <span>Moño <span style="text-decoration: underline black;">negro</span></span>
+                        </div> 
+                        <div data-aos="flip-up" data-aos-delay="100" style="width: 100%; display: flex; justify-content: center; align-items: center;">
+                          <span>Zapatos de vestir negros</span>
+                        </div> <br>
                         <div style="width: 100%; display: flex; justify-content: center; align-items: center; height: 50px;">
                             <div style="width: 20%; height: 2px; background-color: #c7aa90;"></div>
                             <div style="width: 5px; height: 5px; border-radius: 50%; background-color: #c7aa90; margin: 5px;"></div>
@@ -242,16 +250,16 @@
                                     
                         </div>
                         <!-- <b>PORFAVOR NO USAR</b><br><br> -->
-                         <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
+                         <div data-aos="flip-up" data-aos-delay="100" style="width: 100%; display: flex; justify-content: center; align-items: center;">
                             <img src="img/delete_cafe.png" style="width: 20px;" alt="">&nbsp;<span>No corbatas</span>
                          </div>
-                         <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
+                         <div data-aos="flip-up" data-aos-delay="100" style="width: 100%; display: flex; justify-content: center; align-items: center;">
                             <img src="img/delete_cafe.png" style="width: 20px;" alt="">&nbsp;<span>No tenis</span>
                          </div>
-                         <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
+                         <div data-aos="flip-up" data-aos-delay="100" style="width: 100%; display: flex; justify-content: center; align-items: center;">
                             <img src="img/delete_cafe.png" style="width: 20px;" alt="">&nbsp;<span>No mezclilla</span>
                          </div>
-                         <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
+                         <div data-aos="flip-up" data-aos-delay="100" style="width: 100%; display: flex; justify-content: center; align-items: center;">
                             <img src="img/delete_cafe.png" style="width: 20px;" alt="">&nbsp;<span>No playeras</span>
                          </div>
                         <!-- <br>
@@ -261,7 +269,7 @@
                 </div>
             </div>
 
-            <div class="estilo_marco_mujeres">
+            <div data-aos="fade-down" class="estilo_marco_mujeres">
                 <div style="width: 100%; display: flex; justify-content: center; align-items: center; height: 150px; margin-top: 35px;">
                     <img src="img/vector_m.png" style="width: 200px; height: 200px; margin-top: 10px;" alt="">
                 </div>
@@ -273,8 +281,8 @@
                     <div style="width: 100%;">
                         <span>Vestido largo</span><br>
                         <span>Color a gusto</span><br>
-                        <div style="height: 70px; display: flex; justify-content: center; align-items: center;  line-height: 20px;">
-                            <span>Llevar abrigo o suéter <br>| para la tarde noche</span>
+                        <div data-aos="flip-up" data-aos-delay="100" style="height: 70px; display: flex; justify-content: center; align-items: center;  line-height: 20px;">
+                            <span>Llevar abrigo o suéter <br> para la tarde noche</span>
                         </div>
                         
                         
@@ -284,10 +292,10 @@
                             <div style="width: 20%; height: 2px; background-color: #c7aa90;"></div>
                                     
                         </div>
-                        <div style="width: 100%; height: 70px; display: flex; justify-content: center; align-items: center; line-height: 20px;">
+                        <div data-aos="flip-up" data-aos-delay="100" style="width: 100%; height: 70px; display: flex; justify-content: center; align-items: center; line-height: 20px;">
                             <img src="img/delete_cafe.png" style="width: 20px;" alt="">&nbsp;<span>No escotes vistosos <br> en busto o espalda</span>
                         </div>
-                        <div style="width: 100%; height: 70px; display: flex; justify-content: center; align-items: center; line-height: 20px;">
+                        <div data-aos="flip-up" data-aos-delay="100" style="width: 100%; height: 70px; display: flex; justify-content: center; align-items: center; line-height: 20px;">
                             <img src="img/delete_cafe.png" style="width: 20px;" alt="">&nbsp;<span>No colores blanco, <br> champagne o similares</span>
                          </div>
 
@@ -297,7 +305,7 @@
                        
                         <!-- <b class="ephesis-regular" style="font-size: 35px;">No</b>&nbsp;&nbsp;<span>colores blanco, champagne o similares</span><br><br> -->
                         <b>RECOMENDACIONES</b><br>
-                         <div style="height: 70px; display: flex; justify-content: center; align-items: center;  line-height: 20px;">
+                         <div data-aos="flip-up" data-aos-delay="100" style="height: 70px; display: flex; justify-content: center; align-items: center;  line-height: 20px;">
                             <span>Usar tacón ancho <br> ya que es área de jardín</span>
                          </div>
                     
@@ -343,19 +351,19 @@
                 </div>
                 <div class="bacasime-antique-regular" style="width: 100%; text-align: center; line-height: 30px; margin-top: 20px; font-size: 20px; color: #000000;">
                     
-                    <div style="width: 100%; text-align: center; margin-top: 20px;">
+                    <div data-aos="flip-up" data-aos-delay="100" style="width: 100%; text-align: center; margin-top: 20px;">
                         <span style="font-size: 20px;">Fecha:</span>
                     </div>
-                    <div style="width: 100%; text-align: center;">
+                    <div data-aos="flip-up" data-aos-delay="100" style="width: 100%; text-align: center;">
                         <b style="font-size: 16px; text-transform: uppercase;">16 de noviembre 2025</b>
                     </div>
-                    <div style="width: 100%; text-align: center; margin-top: 20px;">
+                    <div data-aos="flip-up" data-aos-delay="100" style="width: 100%; text-align: center; margin-top: 20px;">
                         <span style="font-size: 20px;">Hora:</span>
                     </div>
-                    <div style="width: 100%; text-align: center;">
+                    <div data-aos="flip-up" data-aos-delay="100" style="width: 100%; text-align: center;">
                         <b style="font-size: 16px; text-transform: uppercase;">12:00 pm</b>
                     </div>
-                    <div style="width: 100%; text-align: center; margin-top: 30px;">
+                    <div data-aos="flip-up" data-aos-delay="100" style="width: 100%; text-align: center; margin-top: 30px;">
                         <b style="font-size: 20px; text-transform: uppercase;">Favor de ser puntuales</b>
                     </div>
                     
@@ -374,7 +382,7 @@
                     <img src="img/road-sign_cafe.png" style="width: 100px; height: 100px; margin-top: 10px;" alt="">
                 </div>
                 <div class="bacasime-antique-regular" style="width: 100%; text-align: center; line-height: 30px; margin-top: 20px; color: #000000;">
-                    <div style="width: 100%; text-align: center;">
+                    <div data-aos="flip-up" data-aos-delay="100" style="width: 100%; text-align: center;">
                         <span style="font-size: 20px;">Lugar:</span>
                     </div>
                     <!-- <div data-aos="zoom-out-left"
@@ -382,7 +390,7 @@
      data-aos-duration="500" style="width: 100%; text-align: center;">
                         <b>Jardín central</b>
                     </div> -->
-                    <div style="width: 100%; text-align: center; line-height: 22px; margin-top: 10px; font-size: 16px; text-transform: uppercase;">
+                    <div data-aos="flip-up" data-aos-delay="100" style="width: 100%; text-align: center; line-height: 22px; margin-top: 10px; font-size: 16px; text-transform: uppercase;">
                         <b>Cabaña del oso #8, Camino del oso, <br> Fracc. Los Cazos, Mazamitla, Jalisco.</b>
                     </div>
                     <div data-aos="fade-down" style="width: 100%; text-align: center; line-height: 22px; margin-top: 30px;">
@@ -662,7 +670,7 @@
   width: 40%; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;
 }
 .estilo_marco_hombres{
-  float: left; width: 80%; height: 600px; border: #d9ac85 1px solid;
+  float: left; width: 80%; height: 650px; border: #d9ac85 1px solid;
 }
 .estilo_marco_mujeres{
   float: left; width: 80%; height: 900px; border: #d9ac85 1px solid; margin-top: 20px;
@@ -869,7 +877,7 @@
     width: 20%; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;
   }
   .estilo_marco_hombres{
-    float: left; width: 400px; height: 600px; border: #d9ac85 1px solid;
+    float: left; width: 400px; height: 650px; border: #d9ac85 1px solid;
   }
   .estilo_marco_mujeres{
     float: left; width: 400px; height: 900px; border: #d9ac85 1px solid; margin-top: 20px;
@@ -917,7 +925,7 @@
     width: 20%; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;
   }
   .estilo_marco_hombres{
-    float: left; width: 400px; height: 600px; border: #d9ac85 1px solid;
+    float: left; width: 400px; height: 650px; border: #d9ac85 1px solid;
   }
   .estilo_marco_mujeres{
     float: left; width: 400px; height: 900px; border: #d9ac85 1px solid; margin-top: 20px;
@@ -974,7 +982,7 @@
     width: 20%; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;
   }
   .estilo_marco_hombres{
-    float: left; width: 400px; height: 600px; border: #d9ac85 1px solid;
+    float: left; width: 400px; height: 650px; border: #d9ac85 1px solid;
   }
   .estilo_marco_mujeres{
     float: left; width: 400px; height: 900px; border: #d9ac85 1px solid; margin-top: 20px;
@@ -1035,7 +1043,7 @@
     width: 20%; border: rgba(0,0,0,0) 1px solid; display: flex; justify-content: center; align-items: center; flex-direction: column;
   }
   .estilo_marco_hombres{
-    float: left; width: 400px; height: 600px; border: #d9ac85 1px solid;
+    float: left; width: 400px; height: 650px; border: #d9ac85 1px solid;
   }
   .estilo_marco_mujeres{
     float: left; width: 400px; height: 900px; border: #d9ac85 1px solid; margin-top: 20px;
