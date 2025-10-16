@@ -500,8 +500,8 @@
             <span  style="font-size: 20px; color: #000000; text-transform: uppercase;">Obsequios</span>
         </div>
         <div style="width: 100%; height: 500px; margin-top: 50px;">
-            <div class="bacasime-antique-regular" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" style="width: 100%; display: flex; justify-content: center; text-transform: uppercase; color: #000000;">
-                <div class="estilo_obsequios_text">
+            <div class="bacasime-antique-regular" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" style="width: 100%; display: flex; justify-content: center; align-items: center; text-transform: uppercase; color: #000000;">
+                <div class="estilo_obsequios_text" style="text-align: center;">
                     <b style="font-size: 16px;">¡Gracias por acompañarnos en esta ocasión tan especial!</b><br><br>
                     <b  style="font-size: 16px;">Si en su corazón está el obsequiarnos algo para iniciar nuestra nueva etapa y todos los proyectos con los que soñamos, agradecemos enormemente sea de manera monetaria en efectivo (sobre) o transferencia bancaria a la cuenta:</b>
                 </div>
@@ -716,7 +716,7 @@
     max-width: 100%; width: 100%; background-color: #FFFCF5; height: 520px;
   }
   .estilo_obsequios_text{
-    width: 90%; text-align: center;
+    width: 90%; text-align: center !important;
   }
 }
 
@@ -875,7 +875,7 @@
     float: left; width: 400px; height: 900px; border: #d9ac85 1px solid; margin-top: 20px;
   }
   .estilo_obsequios_text{
-    width: 500px; text-align: center;
+    width: 500px; text-align: center !important;
   }
 }
 
@@ -923,7 +923,7 @@
     float: left; width: 400px; height: 900px; border: #d9ac85 1px solid; margin-top: 20px;
   }
   .estilo_obsequios_text{
-    width: 500px; text-align: center;
+    width: 500px; text-align: center !important;
   }
   .estilo_invi{
     width: 600px; text-align: center; font-size: 16px; text-transform: uppercase; line-height: 25px; padding: 10px;
@@ -980,7 +980,7 @@
     float: left; width: 400px; height: 900px; border: #d9ac85 1px solid; margin-top: 20px;
   }
   .estilo_obsequios_text{
-    width: 800px; text-align: center;
+    width: 800px; text-align: center !important;
   }
   .estilo_invi{
     width: 800px; text-align: center; font-size: 16px; text-transform: uppercase; line-height: 25px; padding: 10px;
@@ -1041,7 +1041,7 @@
     float: left; width: 400px; height: 900px; border: #d9ac85 1px solid; margin-top: 20px;
   }
   .estilo_obsequios_text{
-    width: 800px; text-align: center;
+    width: 800px; text-align: center !important;
   }
   .estilo_invi{
     width: 800px; text-align: center; font-size: 16px; text-transform: uppercase; line-height: 25px; padding: 10px;
