@@ -54,7 +54,7 @@ switch ($_GET["op"])
 									Lugares: <b id="txt_lugares'.$reg->idinvitados.'">'.$reg->lugares.'</b>
 								</div>
 								<div style="width: 100%; float: left; display: flex; justify-content: center; align-items: center;">
-									<a href="" id="enlace_inv" onclick="copiarTexto('.$reg->idinvitados.');" target="_blank">
+									<a href="" id="enlace_inv'.$reg->idinvitados.'" target="_blank">
 										<button style="margin: 5px; background-color: #085454ff; border: none; border-radius: 10px; padding: 5px 25px; color: #fbfaf7; border: #ead8c4 1px solid; text-transform: uppercase;" onclick="abrir_invitacion('.$reg->idinvitados.');">Ver invitación</button>
 									</a>	
 									<button style="margin: 5px; background-color: #404463ff; border: none; border-radius: 10px; padding: 5px 25px; color: #fbfaf7; border: #ead8c4 1px solid; text-transform: uppercase;" onclick="copiarTexto('.$reg->idinvitados.');">Copiar link</button><br>
