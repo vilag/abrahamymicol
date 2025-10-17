@@ -7,7 +7,7 @@
     <meta http-equiv="Last-Modified" content="0">
     <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
     <meta http-equiv="Pragma" content="no-cache">
-
+    <link rel="shortcut icon" type="image/x-icon" href="img/nuevo/icon2.png">
 
     <title>Abraham y Micol</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">   
